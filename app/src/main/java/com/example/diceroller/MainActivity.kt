@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         var rollbutton:Button=findViewById(R.id.roll_button)
-        rollbutton.text="Lets roll"
+        rollbutton.text="Lets RRRRroll"
         rollbutton.setOnClickListener {
 
             rollDice()
